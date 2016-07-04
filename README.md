@@ -29,4 +29,5 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 ### Solution
 
 - Code: [lib/merge_sort.rb](lib/merge_sort.rb)
+- Pseudocode: [lib/merge_sort_pseudocode.md](lib/merge_sort_pseudocode.md)
 - Tests: [spec/lib/merge_sort_spec.rb](spec/lib/merge_sort_spec.rb)
