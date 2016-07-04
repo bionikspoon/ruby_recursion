@@ -1,4 +1,4 @@
-def fibs n
+def fibs(n)
   return [] if n === 0
   a, b = 1, 1
 
@@ -11,7 +11,7 @@ def fibs n
   end.to_a
 end
 
-def fibs_rec n, a: 1, b: 1
+def fibs_rec(n, a: 1, b: 1)
   return [] if n === 0
   [a] + fibs_rec(n-1, a: b, b: a + b)
 end
