@@ -7,8 +7,10 @@ end
 
 def merge(l, r)
   Enumerator.new do |y|
-    until l.empty? or r.empty?
+    until l.empty? or r.empty? # until either list is empty
+      # if left is lower,   append result with left.shift
+      # otherwise,          append result with right.shift
       y << (l.first <= r.first ? l : r).shift
     end
-  end.to_a + l + r
+  end.to_a + l + r # append remaining list to results
 end
